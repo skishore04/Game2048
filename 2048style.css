@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: 3em;
+    color: #776E65;
+    float:left;
+}
+
+.score {
+    float: right;
+    width: 150px;
+    height: 70px;
+    background-color: #776E65;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.score span {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    overflow: hidden;
+}
+.container {
+    margin: auto;
+    width: 450px;
+}
+.grid-container {
+    width:430px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(4,  100px);
+    grid-auto-flow: column;
+    background-color: #776E65;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.grid-tile {
+    font-size: 3em;
+    color: #776E65;
+    font-weight: bolder;
+    display: flex;
+    background-color: lightgray;
+    border-radius: 5px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Colors for tiles */
+.tile-2 {
+    background-color: #eee4da;
+}
+.tile-4 {
+    background-color: #eee1c9;
+}
+.tile-8 {
+    background-color: #f3b27a; 
+    color: white;
+}
+.tile-16 {
+    background-color: #f69664; 
+    color: white;
+}
+.tile-32 {
+    background-color: #f77c5f; 
+    color: white;
+}
+.tile-64 {
+    background-color: #f75f3b; 
+    color: white;
+}
+.tile-128 {
+    background-color: #edd073; 
+    color: white;
+}
+.tile-256 {
+    background-color: #edcc62; 
+    color: white;
+}
+.tile-512 {
+    background-color: #edc950; 
+    color: white;
+}
+.tile-1024 {
+    background-color: #edc53f; 
+    color: white;
+    font-size: 2em;
+}
+.tile-2048 {
+    background-color: #edc22e; 
+    color: white;
+    font-size: 2em;
+}
+.tile-max {
+    background-color: darkslategray;
+    color: white;
+    font-size: 2em;
+}
+
+/* --------------------------------- */
